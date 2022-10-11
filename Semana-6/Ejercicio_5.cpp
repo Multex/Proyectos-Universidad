@@ -11,7 +11,8 @@ Donde , tasa es el porcentaje de interes de interes por periodo, Un periodo pued
 using namespace std;
 
 int main() {
-    float capital, tasa, periodos, monto, interes;
+    int periodos;
+    float capital, tasa, monto, interes;
 
     cout << "Ingrese el capital: ";
     cin >> capital;
