@@ -10,8 +10,10 @@ int main() {
     cout << "Ingrese un número: ";
     cin >> n;
 
+    // Formula
     suma = (n * (n + 1)) / 2;
 
+    // Using for loop
     /* for (int i = 1; i <= n; i++) {
         suma += i;
     }
