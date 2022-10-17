@@ -13,7 +13,7 @@ int main()
     float pagoNormal, pagoExtra, pagoMensual, pagoTotal, pagoDia, bonificacion, descuentoESSALUD, descuentoIES, ingresoNeto;
 
     cout << "Ingrese el nombre del trabajador: ";
-    cin >> nombres; // todo Bug: Si ingresas un espacio en el nombre el programa lo toma para la siguiente parte del codigo y hace que entre en un loop infinito.
+    cin >> nombres; // todo Bug: Si ingresas un espacio en el nombre el programa lo toma para la siguiente parte del codigo y hace que entre en un loop infinito por el while.
 
     // Mientras que el codigo sea menor a 10 caracteres numericos entonces se volvera a pedir el codigo del trabajador. 
     while (codigo < 1000000000 || codigo > 9999999999)
@@ -55,7 +55,7 @@ int main()
         cout << "La bonificacion es: " << bonificacion << endl;
         cout << "El descuento de ESSALUD es: " << descuentoESSALUD << endl;
         cout << "El descuento de IES es: " << descuentoIES << endl;
-        cout << "El salario bruto del empleado" << nombres << " es: " << ingresoNeto << endl;
+        cout << "El salario bruto del empleado " << nombres << " es: S/." << ingresoNeto << endl;
     }
     else
     {
@@ -75,12 +75,12 @@ int main()
         // Mostramos los resultados.
         cout << "Empleado: " << nombres << endl;
         cout << "Codigo: " << codigo << endl;
-        cout << "El pago por dia es: " << pagoDia << endl;
-        cout << "El pago mensual es: " << pagoMensual << endl;
-        cout << "La bonificacion es: " << bonificacion << endl;
-        cout << "El descuento de ESSALUD es: " << descuentoESSALUD << endl;
-        cout << "El descuento de IES es: " << descuentoIES << endl;
-        cout << "El salario bruto del empleado " << nombres << " es: " << ingresoNeto << endl;
+        cout << "El pago por dia es: S/." << pagoDia << endl;
+        cout << "El pago mensual es: S/." << pagoMensual << endl;
+        cout << "La bonificacion es: S/." << bonificacion << endl;
+        cout << "El descuento de ESSALUD es: S/." << descuentoESSALUD << endl;
+        cout << "El descuento de IES es: S/." << descuentoIES << endl;
+        cout << "El salario bruto del empleado " << nombres << " es: S/." << ingresoNeto << endl;
     }
     return 0;
 }

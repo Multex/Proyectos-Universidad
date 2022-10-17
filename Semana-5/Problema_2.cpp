@@ -1,4 +1,4 @@
-// Diseñar un programa que calcule el promedio obtenido por un alumno. Se deben ingresar 3 notas por teclado
+// DiseÃ±ar un programa que calcule el promedio obtenido por un alumno. Se deben ingresar 3 notas por teclado
 
 #include <iostream>
 
@@ -14,10 +14,9 @@ int main()
     cout << "Ingrese la tercera nota: ";
     cin >> nota3;
     
-    // Cálculo del promedio
+    // Calculo del promedio
     
     promedio = (nota1 + nota2 + nota3) / 3;
     cout << "El promedio es: " << promedio << endl;
     return 0;
 }
-

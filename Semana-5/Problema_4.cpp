@@ -1,4 +1,4 @@
-// Dise�a un programa que teniendo como datos de entrada el radio y la altura de un cilindro, calcule el área y volumen del cilindro
+// Diseña un programa que teniendo como datos de entrada el radio y la altura de un cilindro, calcule el área y volumen del cilindro
 
 #include <iostream>
 
@@ -16,4 +16,3 @@ int main() {
     cout << "El volumen del cilindro es: " << volumen << endl;
     return 0;
 }
-
