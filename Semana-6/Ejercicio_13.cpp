@@ -22,7 +22,10 @@ int main() {
     area = sqrt(p * (p - a) * (p - b) * (p - c));
 
     cout << "El semi perimetro es: " << p << endl;
-    cout << "El area es en funcion del semiperimetro: " << area << endl;
 
+    // Revisa si el area es NaN
+    area == area ? cout << "El area es: " << area << endl
+                 : cout << "El area no es numero natural\n"
+                 "El area es: √" << p * (p - a) * (p - b) * (p - c) << endl;
     return 0;
 }

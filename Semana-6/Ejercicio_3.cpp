@@ -20,8 +20,8 @@ int main() {
     angulo2 = atan(cateto2 / cateto1) * 180 / PI;
 
     cout << "La hipotenusa es: " << hipotenusa << endl;
-    cout << "El ángulo 1 es: " << angulo1 << endl;
-    cout << "El ángulo 2 es: " << angulo2 << endl;
+    cout << "El ángulo 1 es: " << angulo1 << "º" <<endl;
+    cout << "El ángulo 2 es: " << angulo2 << "º" <<endl;
 
     return 0;
 }

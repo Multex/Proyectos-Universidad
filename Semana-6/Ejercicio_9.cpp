@@ -8,7 +8,7 @@ int main() {
     const float IGV = 0.18;
     float precio, cantidad, descuento, precioFinal, impuesto;
 
-    cout << "Ingrese el precio: ";
+    cout << "Ingrese el precio: S/.";
     cin >> precio;
 
     cout << "Ingrese la cantidad: ";

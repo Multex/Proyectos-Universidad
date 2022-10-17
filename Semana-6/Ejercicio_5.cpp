@@ -26,8 +26,8 @@ int main() {
     monto = capital * pow(1 + tasa / 100, periodos);
     interes = monto - capital;
 
-    cout << "El monto es: " << monto << endl;
-    cout << "El interes es: " << interes << endl;
+    cout << "El monto es: S/." << monto << endl;
+    cout << "El interes es: S/." << interes << endl;
 
     return 0;
 }
