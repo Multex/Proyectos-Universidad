@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-    int array[50], *max, *min, i; //pointer variables declared for max and min
+    int array[50], *max, *min, i;
 
     cout<<"Ingrese 5 numeros\n";
     for ( i = 0 ; i < 5 ; i++ )
