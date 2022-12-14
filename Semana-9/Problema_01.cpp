@@ -1,4 +1,4 @@
-// Escriba un programa que permita calcular la suma de los números enteros comprendidos entre dos cantidades ingresadas por teclado, finalmente calcular el promedio de los números. Usando for, while o do while.
+// Escriba un programa que permita calcular la suma de los números enteros comprendidos entre dos cantidades ingresadas por teclado, finalmente calcular el promedio de los números.
 
 #include <iostream>
 using namespace std;
