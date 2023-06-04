@@ -3,5 +3,83 @@
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": []
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Ejemplo06",
+            "request": "launch",
+            "mainClass": "Ejercicios.Ejemplo06",
+            "projectName": "Proyectos-Universidad_9d2c4a9a"
+        },
+        {
+            "type": "java",
+            "name": "Ejemplo04",
+            "request": "launch",
+            "mainClass": "Ejercicios.Ejemplo04",
+            "projectName": "Proyectos-Universidad_9d2c4a9a"
+        },
+        {
+            "type": "java",
+            "name": "Repetitiva02",
+            "request": "launch",
+            "mainClass": "Poo3.Repetitiva02",
+            "projectName": "Proyectos-Universidad_9d2c4a9a"
+        },
+        {
+            "type": "java",
+            "name": "Condicional06",
+            "request": "launch",
+            "mainClass": "Poo3.Condicional06",
+            "projectName": "Proyectos-Universidad_9d2c4a9a"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio05",
+            "request": "launch",
+            "mainClass": "Poo3.Ejercicio05",
+            "projectName": "Proyectos-Universidad_9d2c4a9a"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio04",
+            "request": "launch",
+            "mainClass": "Poo3.Ejercicio04",
+            "projectName": "Proyectos-Universidad_9d2c4a9a"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio02",
+            "request": "launch",
+            "mainClass": "Poo3.Ejercicio02",
+            "projectName": "Proyectos-Universidad_9d2c4a9a"
+        },
+        {
+            "type": "java",
+            "name": "Problema2",
+            "request": "launch",
+            "mainClass": "Gutierrez_Vega.Problema2",
+            "projectName": "Proyectos-Universidad_9d2c4a9a"
+        },
+        {
+            "type": "java",
+            "name": "Problema5",
+            "request": "launch",
+            "mainClass": "Gutierrez_Vega.Problema5",
+            "projectName": "Proyectos-Universidad_9d2c4a9a"
+        },
+        {
+            "type": "java",
+            "name": "Caso2",
+            "request": "launch",
+            "mainClass": "Poo2.Caso2",
+            "projectName": "Proyectos-Universidad_9d2c4a9a"
+        },
+        {
+            "type": "java",
+            "name": "Caso1",
+            "request": "launch",
+            "mainClass": "Poo2.Caso1",
+            "projectName": "Proyectos-Universidad_9d2c4a9a"
+        }
+    ]
 }
