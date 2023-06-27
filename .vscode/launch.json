@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ejercicio1",
+            "request": "launch",
+            "mainClass": "evaluación.Ejercicio1",
+            "projectName": "Proyectos-Universidad_9d2c4a9a"
+        },
+        {
+            "type": "java",
+            "name": "Pregunta01",
+            "request": "launch",
+            "mainClass": "evaluación.Pregunta01",
+            "projectName": "Proyectos-Universidad_9d2c4a9a"
+        },
+        {
+            "type": "java",
+            "name": "Pregunta01",
+            "request": "launch",
+            "mainClass": "evaluación.ii.Pregunta01",
+            "projectName": "Proyectos-Universidad_9d2c4a9a"
+        },
+        {
+            "type": "java",
+            "name": "Pregunta02",
+            "request": "launch",
+            "mainClass": "evaluación.ii.Pregunta02",
+            "projectName": "Proyectos-Universidad_9d2c4a9a"
+        },
+        {
+            "type": "java",
+            "name": "EvaluaciónII",
+            "request": "launch",
+            "mainClass": "evaluación.ii.EvaluaciónII",
+            "projectName": "Proyectos-Universidad_9d2c4a9a"
+        },
+        {
+            "type": "java",
             "name": "Ejemplo06",
             "request": "launch",
             "mainClass": "Ejercicios.Ejemplo06",
