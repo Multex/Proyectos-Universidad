@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "calculadora",
+            "request": "launch",
+            "mainClass": "trabajo.calculadora",
+            "projectName": "Proyectos-Universidad_9d2c4a9a"
+        },
+        {
+            "type": "java",
             "name": "Ejercicio1",
             "request": "launch",
             "mainClass": "evaluación.Ejercicio1",
